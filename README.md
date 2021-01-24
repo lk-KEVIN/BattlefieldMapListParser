@@ -4,9 +4,10 @@ A PHP file parser for Battlefield 3 and Battlefield 4 MapList files
 This repository is meant to be used on dedicated BF3/BF4 servers, not EA ones. The idea for making this project come out one day I realized that no one has made anything like this.
 
 ## Using
-On the [`locations.ini`](locations.ini) you have to place the name and the MapList file location.
-On the [`index.php`](index.php) 
-
+* On the [`locations.ini`](locations.ini) you have to place the name and the MapList file location.
+* On the [`index.php`](index.php) change the **$version** variable according to the game version (integer).
+* * BF3 = 3
+* * BF4 = 4
 ## Dependencies
 * Bootstrap CSS v4.0.0
 * Bootstrap JS v4.0.0
