@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html >
 <head>
-	<title>Rotación de Mapas</title>
+	<title>MapaList Rotation</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Rotación de Mapas">
-    <meta name="author" content="lk.KEVIN">
 </head>
 <body>
 <div class="container">
@@ -16,8 +14,6 @@ require_once('lib/ModeReplacer.php');
 require_once('lib/NameSanitizer.php');
 $ini_array = parse_ini_file("locations.ini");
 
-//BF4 = 4
-//BF3 = 3
 $version = 4;
 $n = 0;
 
@@ -37,9 +33,9 @@ echo "	<div class=\"card\">
 	<table class=\"table table-striped\">
 		<tr>
 			<td>#</td>
-			<td>Mapa</td>
-			<td>Modo</td>
-			<td>Vueltas</td>
+			<td>Map</td>
+			<td>Mode</td>
+			<td>Matchs</td>
 		</tr>";
 
 	$file = new SplFileObject($filename);
